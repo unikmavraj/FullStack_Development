@@ -1,5 +1,6 @@
 h1{
     text-decoration: line-through;
+    
 }
 
 h2{
@@ -10,14 +11,13 @@ h3{
     text-decoration: overline;
 }
 
-_________________________________________________
 
 .blue{
     color: blue;
 }
 
 
--------------------------------------
+
 
 .red{
     text-decoration: red;
@@ -32,7 +32,7 @@ _________________________________________________
     font-family: 'Courier New', Courier, monospace;
 }
 
-------------------------
+
 
 a:link{
     color: blueviolet;
