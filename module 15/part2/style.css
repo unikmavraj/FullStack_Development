@@ -47,7 +47,7 @@ font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration
+    text-decoration: none;
 }
 
 .dropdown{
@@ -95,7 +95,7 @@ font-family: Arial, Helvetica, sans-serif;
 .row:after{
     content: "";
     display: table;
-    
+
 }
 
 #vertical-menu{
