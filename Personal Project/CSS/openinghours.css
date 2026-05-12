@@ -1,0 +1,74 @@
+
+body {
+    margin: 0px;
+    overflow-x: hidden; 
+}
+
+#Section1 {
+    width: 100%;
+    min-height: 100%; 
+    background-color: rgb(255, 0, 98);
+    padding-bottom: 50px; 
+}
+
+.Links {
+    text-align: center;
+    margin-top: 20px; 
+    font-size: 20px;
+}
+
+.Link {
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-family: Barlow Condensed, sans-serif;
+    display: inline-block;
+}
+
+#Prishtina_Mall_Logo {
+    transform: scale(1);
+    transition: .3s ease-in-out;
+    max-width: 100%;
+    height: auto;
+}
+
+#Prishtina_Mall_Logo:hover {
+    transform: scale(1.1); 
+}
+
+#open {
+    color: white;
+    text-align: center;
+    margin-top: 10%; 
+    font-size: 30px; 
+    font-family: Barlow Condensed, sans-serif;
+}
+
+p {
+    color: white;
+    font-size: 25px;
+    margin: 50px auto; 
+    width: 80%; 
+    text-align: center;
+}
+
+
+@media (max-width: 600px) {
+    .Links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Link {
+        padding: 10px;
+    }
+
+    #open {
+        margin-top: 50px;
+    }
+
+    p {
+        margin-top: 30px;
+        width: 90%;
+    }
+}
